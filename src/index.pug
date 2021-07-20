@@ -1,0 +1,37 @@
+extends layout/header.pug
+
+block variables 
+    - let titleName = "Home"
+    - let cssLink = "css/main.min.css"
+    - let active = "index.html"
+
+block content
+    div(class="container content")
+        div(class="row row-cols row-cols-lg")
+            div(class="col-lg-4 col-md-4 col-sm-12 col-xs-12 content__preview")
+                img(src="images/photo.jpg" alt="photo" class="mx-auto d-block img-thumbnail")
+                div(class="container-fluid content__preview_descr")
+                    p(class="font-monospace text-center") "firstname" : "Evgenii"
+                    p(class="font-monospace text-center") "lastname" : "Eskov"
+                    p(class="font-monospace text-center") have_a_job" : false
+                    p(class="font-monospace text-center") "looking_for_a_job" : #[code(class="code") true]
+            div(class="content__info col-lg-8 col-md-8 col-sm-12 col-xs-12 d-flex")
+                div(class="content__info_div d-flex flex-column justify-content-center")
+                    p.
+                        #[b Hello,] #[br]
+                        My name is Evgenii Eskov.
+                        I am 29. I currently live in Vladivostok but ready to move to
+                        another city in a short time.
+                    p.
+                        At this moment I do not have commercial expirience such as working with a team,
+                        or product own project. Regardless this fact #[b I work with]:
+                    ul
+                        li HTML/CSS/JavaScript;
+                        li XMLHttpRequest, Fetch, Axios;
+                        li ReactJS with Hooks or Redux state menagement and Flux system;
+                        li NodeJS as create local server, connect to a database, read/write files, create requests;#[br]nodemon, express, MAMP;
+                        li Gulp with Pug, SCSS, HTML, JS;
+                        li NPM, Git;
+                        li SCSS, Bootstrap, Material UI;
+                    hr
+                    p My mission here is get a job and start progressing as a Frontend Developer.

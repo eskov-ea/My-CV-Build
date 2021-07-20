@@ -1,0 +1,7 @@
+#Ignore some dev files
+
+/node_modules
+/dist
+.DS_Store
+
+

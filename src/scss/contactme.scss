@@ -1,0 +1,12 @@
+@import "_navbar.scss";
+
+.content{
+    padding-top: 70px;
+    .list__item{
+        font-size: 15px;
+        padding: 18px 0 18px 0;
+    }
+    .list__item:hover{
+        background-color: rgba(228, 228, 228, 0.509);
+    }
+}

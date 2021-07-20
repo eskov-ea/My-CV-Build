@@ -1,0 +1,29 @@
+extends layout/header.pug
+
+block variables 
+    - let titleName = "Contact me"
+    - let cssLink = "css/contactme.min.css"
+    - let active = "contactme.html"
+
+block content
+    div(class="container")
+        div(class="content row row-cols d-flex")
+            div(class="content__image col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex")
+                img(src="images/image01.jpg" alt="..." class="mx-auto d-block img-thumbnail")
+            div(class="content__info col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex")
+                div(class="container content__list")
+                    p(class="text-center") To contact me use the following ways:
+                    ul(class="content__list_ul container")
+                        li(class="list__item row row-cols")
+                            div(class="col-6 font-monospace text-start") E-mail:
+                            a(href="mailto:ea.eskov@mail.ru" target="_blank" class="col-6 font-monospace text-end") ea.eskov@mail.ru
+                        li(class="list__item row row-cols")
+                            div(class="col-6 text-start font-monospace") Phone:
+                            div(class="col-6 font-monospace text-end") +7(914)0774664
+                        li(class="list__item row row-cols")
+                            div(class="col-6 text-start font-monospace") Instagram:
+                            a(href="https://www.instagram.com/ejxem/" target="_blank" class="col-6 font-monospace text-end") @ejxem
+                        hr
+                        li(class="list__item row row-cols")
+                            div(class="col-6 text-start font-monospace") GitHub:
+                            a(href="https://github.com/eskov-ea" target="_blank" class="col-6 font-monospace text-end") @eskov-ea

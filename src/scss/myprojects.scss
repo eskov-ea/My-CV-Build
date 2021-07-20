@@ -1,0 +1,22 @@
+@import "_navbar.scss";
+
+.content {
+    margin-top: 50px;
+    .item{
+        padding: 0;
+        margin: 10px 0 0 0;
+        
+    }
+    .item__btn{
+        background-color: rgba(57, 57, 57, 0.276);
+        color: black;
+        border: rgba(57, 57, 57, 0.42);;
+    }
+    .item__btn:hover{
+        background-color: rgba(57, 57, 57, 0.386);
+    }
+
+    .item_unfinished{
+        margin-top: 80px;
+    }
+}

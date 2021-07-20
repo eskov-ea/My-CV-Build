@@ -1,0 +1,33 @@
+@import "_navbar.scss";
+
+.content{
+    padding-top: 40px;
+    .row{
+        margin: 0;
+    }
+    .content__preview{
+        img{
+            border-radius: 50%;
+            max-width: 80%;
+        }
+        p{
+            font-size: 15px;
+            .code{
+                font-size: 16px;
+            }
+        }
+        .content__preview_descr{
+            padding-top: 25px;
+            padding-bottom: 5px;
+            margin-top: 40px;
+            border-radius: 10px;
+            // border: 3px solid white;
+            background-color: rgba(238, 236, 236, 0.482);
+        }
+        
+
+    }
+}
+
+
+
