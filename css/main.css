@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+.navbar .navbar-logo {
+  padding: 0 50px 0 100px;
+}
+.navbar .navbar-nav li {
+  padding: 0 20px 0 20px;
+}
+
+.content {
+  padding-top: 40px;
+}
+.content .row {
+  margin: 0;
+}
+.content .content__preview img {
+  border-radius: 50%;
+  max-width: 80%;
+}
+.content .content__preview p {
+  font-size: 15px;
+}
+.content .content__preview p .code {
+  font-size: 16px;
+}
+.content .content__preview .content__preview_descr {
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: rgba(238, 236, 236, 0.482);
+}
