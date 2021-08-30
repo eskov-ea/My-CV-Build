@@ -43,7 +43,7 @@ const pug = () => {
                 pretty: true,
                 basedir: __dirname
             }))
-        .pipe(webphtml())
+        // .pipe(webphtml())
         .pipe(dest(path.build.html))
 }
 const css = () => {
